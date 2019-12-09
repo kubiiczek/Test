@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView"
+            android:src="@drawable/superman"
+            android:adjustViewBounds="true"
+            android:padding="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:textSize="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="SuperMan"
+            android:id="@+id/napis"/>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/napis"
+            android:layout_marginTop="191dp"
+            android:gravity="center"
+            android:padding="40dp">
+
+        <Button
+            android:id="@+id/buttonFindPhrase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            android:text="Joker"
+            android:textSize="20sp"
+            android:onClick="onClick6"/>
+
+        <Button
+            android:id="@+id/buttonReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            android:text="Batman"
+            android:textSize="20sp"
+            android:onClick="onClick7"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
